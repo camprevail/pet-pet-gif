@@ -7,7 +7,7 @@ def read(fname):
 
 setup(
     name='pet-pet-gif',
-    version='1.0.2',
+    version='1.0.0',
     packages=['petpetgif'],
     keywords=['petpet', 'petthe', 'gif'],
     url='https://github.com/camprevail/pet-pet-gif',
