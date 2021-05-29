@@ -7,7 +7,7 @@ def read(fname):
 
 setup(
     name='pet-pet-gif',
-    version='1.0.0',
+    version='1.0.1',
     packages=['petpetgif'],
     keywords=['petpet', 'petthe', 'gif'],
     url='https://github.com/camprevail/pet-pet-gif',
@@ -22,6 +22,6 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=["pillow"],
+    install_requires=["pillow", "setuptools"],
     package_data={"petpetgif": ["img/*"]}
 )
